@@ -13,7 +13,7 @@ CREATE TABLE `student` (
 -- ----------------------------
 -- Table structure for `person`
 -- ----------------------------
-DROP TABLE IF EXISTS `student`;
+DROP TABLE IF EXISTS `person`;
 CREATE TABLE `person` (
   `id` int(10) unsigned NOT NULL AUTO_INCREMENT,
   `name` varchar(1024) NOT NULL,
